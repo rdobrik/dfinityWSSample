@@ -1,0 +1,5 @@
+/bin/
+/target/
+/.project
+/pom-native.xml
+/.classpath
