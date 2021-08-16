@@ -1,5 +1,5 @@
-# dfinityWSSample
-Java WS connecting to Dfinity Internet Computer
+## dfinityWSSample
+##Java WS connecting to Dfinity Internet Computer
 
 This sample demonstrates how to use Java Dfinity agent to create Java Web Service using Oracle Helidon SE package. 
 Java reactive code calls 2 Dfinity methods
@@ -13,18 +13,19 @@ To deploy a new, modified version of Motoko code please follow Dfinity example i
 In application.yaml modify canister id value (and url, if needed).
 
 Run 
-
+```bash
 mvn package
+```
 
-to build Java project
+to build Java project and then run: 
 
-then run 
-
+```bash
 java -jar target/dfinity-webservices-0.0.1.jar 
+```
 
 to start Java Web Service
 
-To test Java Web Service run HTML page.
+To test Java Web Service run HTML page:
 
 http://localhost:8080/web/index.html
 
