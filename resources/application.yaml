@@ -4,4 +4,4 @@ server:
 
 dfinity:
    canister: rrkah-fqaaa-aaaaa-aaaaq-cai  
-   url: http://localhost:8000
+   url: http://localhost:8000/

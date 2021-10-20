@@ -7,7 +7,7 @@
 	<version>0.0.1</version>
 
 	<properties>
-		<dfinity.agent.version>0.5.1</dfinity.agent.version>
+		<dfinity.agent.version>0.5.4</dfinity.agent.version>
 		<helidon.version>2.3.2</helidon.version>
 		<mainClass>com.scaleton.dfinity.samples.ws.Server</mainClass>
 		<maven.compiler.source>11</maven.compiler.source>
