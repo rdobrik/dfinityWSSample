@@ -20,7 +20,7 @@ import io.helidon.webserver.tyrus.TyrusSupport;
 import com.scaleton.dfinity.agent.Agent;
 import com.scaleton.dfinity.agent.AgentBuilder;
 import com.scaleton.dfinity.agent.ReplicaTransport;
-import com.scaleton.dfinity.agent.http.ReplicaHttpTransport;
+import com.scaleton.dfinity.agent.http.ReplicaApacheHttpTransport;
 
 public class Server {
 	private static final Logger LOGGER = Logger.getLogger(Server.class.getName());
@@ -29,7 +29,7 @@ public class Server {
 		// By default this will pick up application.yaml from the classpath
 		Config config = Config.create();
 
-		ReplicaTransport transport = ReplicaHttpTransport.create(config.get("dfinity").get("url").asString().get());
+		ReplicaTransport transport = ReplicaApacheHttpTransport.create(config.get("dfinity").get("url").asString().get());
 		Agent agent = new AgentBuilder()
 		.transport(transport)
 		.build();
