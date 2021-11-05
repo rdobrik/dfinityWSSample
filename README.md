@@ -1,5 +1,5 @@
 ## dfinityWSSample
-##Java WS connecting to Dfinity Internet Computer
+##Java WS connecting to the Internet Computer
 
 This sample demonstrates how to use Java Dfinity agent to create Java Web Service using Oracle Helidon SE package. 
 Java reactive code calls 2 Dfinity methods
