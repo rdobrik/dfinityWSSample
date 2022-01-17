@@ -2,9 +2,9 @@ package com.scaleton.dfinity.samples.ws;
 
 import java.util.concurrent.CompletableFuture;
 
-import com.scaleton.dfinity.agent.annotations.Waiter;
-import com.scaleton.dfinity.candid.annotations.QUERY;
-import com.scaleton.dfinity.candid.annotations.UPDATE;
+import org.ic4j.agent.annotations.Waiter;
+import org.ic4j.candid.annotations.QUERY;
+import org.ic4j.candid.annotations.UPDATE;
 
 public interface HelloProxy {
 	

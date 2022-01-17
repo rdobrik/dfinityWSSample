@@ -5,8 +5,8 @@ import java.util.logging.Logger;
 
 import javax.websocket.server.ServerEndpointConfig;
 
-import com.scaleton.dfinity.agent.ProxyBuilder;
-import com.scaleton.dfinity.types.Principal;
+import org.ic4j.agent.ProxyBuilder;
+import org.ic4j.types.Principal;
 
 import io.helidon.config.Config;
 import io.helidon.config.ConfigMappingException;
@@ -17,10 +17,10 @@ import io.helidon.webserver.WebServer;
 import io.helidon.webserver.staticcontent.StaticContentSupport;
 import io.helidon.webserver.tyrus.TyrusSupport;
 
-import com.scaleton.dfinity.agent.Agent;
-import com.scaleton.dfinity.agent.AgentBuilder;
-import com.scaleton.dfinity.agent.ReplicaTransport;
-import com.scaleton.dfinity.agent.http.ReplicaApacheHttpTransport;
+import org.ic4j.agent.Agent;
+import org.ic4j.agent.AgentBuilder;
+import org.ic4j.agent.ReplicaTransport;
+import org.ic4j.agent.http.ReplicaApacheHttpTransport;
 
 public class Server {
 	private static final Logger LOGGER = Logger.getLogger(Server.class.getName());

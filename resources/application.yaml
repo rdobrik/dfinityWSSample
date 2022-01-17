@@ -3,8 +3,8 @@ server:
   host: 0.0.0.0
 
 dfinity:
-   canister: 22w4c-cyaaa-aaaab-qacka-cai  
-   url: https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app
+#   canister: 22w4c-cyaaa-aaaab-qacka-cai  
+#   url: https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app
    
-#   canister: rrkah-fqaaa-aaaaa-aaaaq-cai  
-#   url: http://localhost:8000/   
+   canister: rrkah-fqaaa-aaaaa-aaaaq-cai  
+   url: http://localhost:8000/   

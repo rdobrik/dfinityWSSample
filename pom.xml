@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.scaleton.dfinity.samples</groupId>
 	<artifactId>dfinity-webservices</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 
 	<properties>
-		<dfinity.agent.version>0.5.5</dfinity.agent.version>
+		<ic4j.agent.version>0.6.0</ic4j.agent.version>
 		<helidon.version>2.3.2</helidon.version>
 		<mainClass>com.scaleton.dfinity.samples.ws.Server</mainClass>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -64,9 +64,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.scaleton.dfinity</groupId>
-			<artifactId>dfinity-agent</artifactId>
-			<version>${dfinity.agent.version}</version>
+			<groupId>org.ic4j</groupId>
+			<artifactId>ic4j-agent</artifactId>
+			<version>${ic4j.agent.version}</version>
 			<exclusions>
             <exclusion>
                 <groupId>com.squareup.okhttp3</groupId>
@@ -74,6 +74,11 @@
             </exclusion>
         </exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.ic4j</groupId>
+			<artifactId>ic4j-candid</artifactId>
+			<version>${ic4j.agent.version}</version>
+		</dependency>		
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
